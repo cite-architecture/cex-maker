@@ -1,7 +1,7 @@
 import scala.io.Source
 import edu.holycross.shot.scm._
 
-val cexData = Source.fromFile("metrical-summaries.cex").getLines.mkString("\n")
+val cexData = Source.fromFile("library.cex").getLines.mkString("\n")
 try {
  val citeLib = CiteLibrary(cexData,"#")
 

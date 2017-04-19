@@ -23,13 +23,11 @@
     <groupname xml:lang="eng">Jane Austen</groupname>
     <work urn="urn:cts:fufolio:austen.pp:" xml:lang="eng">
       <title xml:lang="eng">Pride and Prejudice</title>
-      
       <edition urn="urn:cts:fufolio:austen.pp.fufolio:">
         <label xml:lang="eng">Public Domain edition</label>
         <description xml:lang="eng">Public Domain edition</description>
         <online/>
       </edition>
-      
     </work>
   </textgroup>
 
