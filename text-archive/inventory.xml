@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/cts/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory tiid="hmt" tiversion="6.0.0" xmlns="http://chs.harvard.edu/xmlns/cts"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <ctsnamespace abbr="greekLit" ns="http://chs.harvard.edu/ctsns/greekLit">
+    <description xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory
+      of Greek texts. </description>
+  </ctsnamespace>
+  <ctsnamespace abbr="latinLit" ns="http://perseus.org/namespaces/cts/latinLit">
+    <description xml:lang="eng">Latin texts hosted by the Perseus Digital Library</description>
+  </ctsnamespace>
+  <ctsnamespace abbr="croala" ns="http://www.ffzg.unizg.hr/klafil/croala">
+    <description xml:lang="lat">Croatiae auctores Latini (CroALa) Collectio electronica</description>
+  </ctsnamespace>
+  <ctsnamespace abbr="latty" ns="http://www.ffzg.unizg.hr/klafil/latty">
+    <description xml:lang="lat">Latinitas Tyrolensis. Tyrolean Neo-Latin texts</description>
+  </ctsnamespace>
+  <ctsnamespace abbr="fufolio" ns="http://folio.furman.edu/fufolio">
+    <description xml:lang="lat">Miscellaneous texts for teaching and research. Furman University</description>
+  </ctsnamespace>
+  
+  <textgroup urn="urn:cts:fufolio:austen:">
+    <groupname xml:lang="eng">Jane Austen</groupname>
+    <work urn="urn:cts:fufolio:austen.pp:" xml:lang="eng">
+      <title xml:lang="eng">Pride and Prejudice</title>
+      
+      <edition urn="urn:cts:fufolio:austen.pp.fufolio:">
+        <label xml:lang="eng">Public Domain edition</label>
+        <description xml:lang="eng">Public Domain edition</description>
+        <online/>
+      </edition>
+      
+    </work>
+  </textgroup>
+
+  <textgroup urn="urn:cts:greekLit:tlg0007:">
+    <groupname xml:lang="eng">Plutarch</groupname>
+    <work urn="urn:cts:greekLit:tlg0007.tlg012:" xml:lang="grc">
+      <title xml:lang="eng">Pericles</title>
+
+      <edition urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:">
+        <label xml:lang="eng">Ziegler, ed.</label>
+        <description xml:lang="eng">Ziegler, ed.</description>
+        <online/>
+      </edition>
+
+    </work>
+  </textgroup>
+  
+  <textgroup urn="urn:cts:croala:caljanpan01:">
+    <groupname xml:lang="hrv">Jan Panonije</groupname>
+    <work urn="urn:cts:croala:caljanpan01.diomed:" xml:lang="lat">
+      <title xml:lang="lat">Diomedis et Glauci congressus</title>
+      <edition urn="urn:cts:croala:caljanpan01.diomed.croala_ocho2:">
+        <label xml:lang="eng">Jovanović, ed.</label>
+        <description xml:lang="eng">Jovanović, ed.</description>
+        <online/>
+      </edition>
+      
+    </work>
+  </textgroup>
+
+  <textgroup urn="urn:cts:latty:alessandrini01:">
+    <groupname xml:lang="hrv">Alessandrini, Giulio</groupname>
+    <work urn="urn:cts:latty:alessandrini01.latty2574838:" xml:lang="lat">
+      <title xml:lang="lat">Paedotrophia sive de puerorum educatione</title>
+      <edition urn="urn:cts:latty:alessandrini01.latty2574838.latty-lat1:">
+        <label xml:lang="eng">Clementina Marsico, ed.</label>
+        <description xml:lang="eng">Clementina Marsico, ed.</description>
+        <online/>
+      </edition>
+      
+    </work>
+  </textgroup>
+  
+
+
+
+</TextInventory>
