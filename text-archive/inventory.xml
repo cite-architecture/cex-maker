@@ -45,6 +45,19 @@
     </work>
   </textgroup>
   
+  <textgroup urn="urn:cts:croala:marul:">
+    <groupname xml:lang="hrv">Marulić, Marko</groupname>
+    <work urn="urn:cts:croala:marul.vir_ill:" xml:lang="lat">
+      <title xml:lang="lat">De Veteris instrumenti uiris illustribus</title>
+      <edition urn="urn:cts:croala:marul.vir_ill.croala_ocho2:">
+        <label xml:lang="eng">Latin. Glavičić, Jovanović, edd.</label>
+        <description xml:lang="eng">Branimir Glavičić, Jovanović, edd.</description>
+        <online/>
+      </edition>
+      
+    </work>
+  </textgroup>
+  
   <textgroup urn="urn:cts:croala:caljanpan01:">
     <groupname xml:lang="hrv">Jan Panonije</groupname>
     <work urn="urn:cts:croala:caljanpan01.diomed:" xml:lang="lat">
